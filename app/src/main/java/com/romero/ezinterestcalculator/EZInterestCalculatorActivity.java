@@ -15,6 +15,7 @@ package com.romero.ezinterestcalculator;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -43,8 +44,8 @@ public class EZInterestCalculatorActivity extends Activity {
 
         // inflating the id to show in the app.
         amountOfMoney = (EditText) findViewById(amount);
-
         interestRate = (EditText) findViewById(R.id.interest);
+
 
         yearsTerm = (TextView) findViewById(years);
         summaryMessage = (TextView) findViewById(R.id.summaryMessage);
@@ -70,7 +71,7 @@ public class EZInterestCalculatorActivity extends Activity {
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-                yearsTerm.setText(yearsBar.getProgress() + " Year(s)");
+                //yearsTerm.setText(yearsBar.getProgress() + " Year(s)");
 
             }
         });
@@ -79,6 +80,18 @@ public class EZInterestCalculatorActivity extends Activity {
         calculateInterest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String amountOfMoneyCheck = amountOfMoney.getText().toString();
+                String interestRateCheck = interestRate.getText().toString();
+                if (TextUtils.isEmpty(amountOfMoneyCheck)) {
+                    amountOfMoney.setError("This item cannot be empty");
+                    return;
+                }
+
+                if (TextUtils.isEmpty(interestRateCheck)){
+                    interestRate.setError("This item cannot be empty");
+                    return;
+                }
+
                 CalculateInterest();
             }
         });
@@ -103,6 +116,9 @@ public class EZInterestCalculatorActivity extends Activity {
                 years + " year(s) is $" + String.format("%1.2f", result));
     }
 
-
-
+    @Override
+    protected void onPause() {
+        yearsBar.setProgress(0);
+        super.onPause();
+    }
 }
