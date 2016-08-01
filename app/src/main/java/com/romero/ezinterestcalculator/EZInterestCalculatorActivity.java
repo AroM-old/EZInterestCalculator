@@ -22,6 +22,10 @@ import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 import static com.romero.ezinterestcalculator.R.id.amount;
 import static com.romero.ezinterestcalculator.R.id.years;
 
@@ -40,7 +44,14 @@ public class EZInterestCalculatorActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.sicalculator);
+        setContentView(R.layout.ezcal_layout);
+
+        //Ads implementation
+        MobileAds.initialize(getApplicationContext(), getString(R.string.banner_ad_unit_id));
+
+        AdView mAdView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
         // inflating the id to show in the app.
         amountOfMoney = (EditText) findViewById(amount);
