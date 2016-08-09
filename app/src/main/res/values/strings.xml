@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EZ Interest Calculator</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="amount">PRINCIPAL</string>
+    <string name="hint_number">Enter Principal</string>
+    <string name="interest_rate">RATE (in %)</string>
+    <string name="year">TIME</string>
+    <string name="interest_hint">Enter Rate</string>
+    <string name="calculate_btn">Calculate</string>
+    
+    <string name="banner_ad_unit_id">ca-app-pub-1147160191233166/3932124325</string>
+
+
+</resources>

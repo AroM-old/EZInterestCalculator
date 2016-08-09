@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="90eeba67a669f8fb24db0f821ef81703fe7a02bc">
+        <dex dex="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-clearcut-9.2.1_126a2c315dcdd7008d76028497ef33a07ad0f194.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="421b36cf4f0d3bbd75e8f28647fccf36674ef049">
+        <dex dex="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-base-9.2.1_5c08ee5a46cc011b4e76f21f2b2ce035d0f1553b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3627eacd7f7cafb5e8ae683992e7b2f9b7dcab1a">
+        <dex dex="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-common-9.2.1_6dc57031032b50fc0544010eb6137db1cda3398b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5337354083e89ed67151859ab0b6b80935c60eaf">
+        <dex dex="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-impl-9.2.1_f6c5a4398beef9eb3fda169fb41e6ed3780d02c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="819c2c3a4fb135e085445d11131d069cf9c32b2a">
+        <dex dex="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-tasks-9.2.1_59373d6cd484440991db72f8cce3c830dda67759.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6a0f2d219f82db499ac03d5a985c4eb3e83fc422">
+        <dex dex="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-9.2.1_e42f1a0e048c4d1901fdd28b2fbea6fad4679e5d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.0.0_1dc7652e67f95de9770eb5aa795ad533287c3a84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6d2f508d1a9fa0fbe1653595e484800c08afb42c">
+        <dex dex="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-9.2.1_0bc1cb07093960a75f34fdd2d3c2e4c2c92b4fef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/algenisromero/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/pre-dexed/release/support-annotations-23.0.0_fe56c468ecec7c194cb1c3589228caae077225f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="081ced8ab77e606b6743c27cfe93dc450447b046">
+        <dex dex="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-gass-9.2.1_18671cbd38e19cd2a63ff9fc421ba07a7f1f263b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d41b5d21cc9dd7d210f0ae82ac509ba7f091d611">
+        <dex dex="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-iid-9.2.1_0a4c98e927240c9ded8b966903205ab502cf52e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
+        <dex dex="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-basement-9.2.1_5052f5ff7a36ac8082a6944e296c885e501cb7cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1141496362c8876f0da4b645fbaf22c0a3618372">
+        <dex dex="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-analytics-impl-9.2.1_4b18b6c85f718786847f02358d23d25ff0033dac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="357a8702c49044417d4856861c8f435e7c74ef09">
+        <dex dex="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-analytics-9.2.1_3e6162fe40d31f1c6dcd1fb754093bbe8014f4ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="310ef01419435979cc82847cf085799a8d00e7e9">
+        <dex dex="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-lite-9.2.1_63c9413d74e9d7318c242fbb321e447a58e7e232.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/algenisromero/AndroidStudioProjects/EZInterestCalculator/app/build/intermediates/pre-dexed/release/internal_impl-23.0.0_5cd076c4ad58929f511a47f73fe140e17a63de51.jar" />
+    </item>
+
+</items>

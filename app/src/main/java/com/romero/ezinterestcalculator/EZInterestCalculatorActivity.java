@@ -46,6 +46,7 @@ public class EZInterestCalculatorActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ezcal_layout);
 
+
         //Ads implementation
         MobileAds.initialize(getApplicationContext(), getString(R.string.banner_ad_unit_id));
 
@@ -123,8 +124,7 @@ public class EZInterestCalculatorActivity extends Activity {
 
         //String answer = Double.toString(result);
 
-        summaryMessage.setText("The interest for $" + amount + " at a rate of " + Rate + "% for " +
-                years + " year(s) is $" + String.format("%1.2f", result));
+        summaryMessage.setText("The interest for $" + amount + " at a rate of " + Rate + "% for " + years + " year(s) is $" + String.format("%1.2f", result));
     }
 
     @Override
@@ -133,3 +133,4 @@ public class EZInterestCalculatorActivity extends Activity {
         super.onPause();
     }
 }
+

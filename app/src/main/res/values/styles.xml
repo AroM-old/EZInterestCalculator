@@ -1,0 +1,18 @@
+<resources>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Text_Style">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="space_dist">
+        <item name="android:paddingTop">30dp</item>
+        <item name="android:layout_marginBottom">30dp</item>
+    </style>
+
+</resources>
